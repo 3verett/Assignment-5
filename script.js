@@ -14,17 +14,19 @@ function solve () {
     // Does the math for the circumference and area of the circle and prints the answers onto the webpage.
     cirNum = cirNum / 2
     cirNum = 2 * 3.14 * cirNum
-    
+
     areaNum = areaNum / 2
     areaNum = 3.14 * areaNum * areaNum
 
     document.getElementById('answer-one').innerHTML = cirNum
     document.getElementById('answer-two').innerHTML = areaNum
+
   }
 
   else if (cirNum, areaNum <= 0) {
     // Alerts the user if they have entered an invalid character into the text box.
     alert('Please enter a valid number')
+    
   }
 
   else {
