@@ -1,0 +1,17 @@
+#circle-diagram {
+  width: 18%;
+  height: 18%;
+}
+
+.img-container {
+  display: inline;
+}
+
+.box-text {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.other-container {
+  display: inline-block;
+}

@@ -31,5 +31,4 @@ function solve () {
     // Alerts the user if they have entered an invalid character into the text box.
     alert('Please enter a valid number')
   }
-
 }
