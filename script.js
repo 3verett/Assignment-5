@@ -20,13 +20,11 @@ function solve () {
 
     document.getElementById('answer-one').innerHTML = cirNum
     document.getElementById('answer-two').innerHTML = areaNum
-
   }
 
   else if (cirNum, areaNum <= 0) {
     // Alerts the user if they have entered an invalid character into the text box.
     alert('Please enter a valid number')
-    
   }
 
   else {
