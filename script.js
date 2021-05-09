@@ -10,7 +10,7 @@ function solve () {
   areaNum = document.getElementById('input').value
   areaNum = parseInt(areaNum)
 
-  if (cirNum, areaNum > 0) {
+  if (cirNum && areaNum > 0) {
     // Does the math for the circumference and area of the circle and prints the answers onto the webpage.
     cirNum = cirNum / 2
     cirNum = 2 * 3.14 * cirNum
@@ -22,7 +22,7 @@ function solve () {
     document.getElementById('answer-two').innerHTML = areaNum
   }
 
-  else if (cirNum, areaNum <= 0) {
+  else if (cirNum && areaNum <= 0) {
     // Alerts the user if they have entered an invalid character into the text box.
     alert('Please enter a valid number')
   }
